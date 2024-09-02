@@ -1,0 +1,20 @@
+# .air.toml
+
+# Directory to watch
+root = "."
+
+# Output binary path
+build_dir = "bin"
+
+# Exclude paths
+exclude = ["tmp"]
+
+# Command to build the application
+cmd = "go build -o bin/main.exe main.go"
+
+# Command to run the application
+run.cmd = "bin/main.exe"
+
+#log
+color = true
+level = "info"
